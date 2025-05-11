@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="methods" thread-count="2">
+    
+    <test name="Test1">
+        <classes>
+            <class name="AMAZON.Iphone"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name="AMAZON.Galaxy"/>
+        </classes>
+    </test>
+
+</suite>
